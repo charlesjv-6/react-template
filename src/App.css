@@ -1,0 +1,64 @@
+@import url('./css/style.css');
+@import url('./css/responsive.css');
+
+* {
+  --outline: 1px solid red;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px; 
+  height: 12px; 
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.padded {
+  padding: 15px;
+}
+
+.radius-full {
+  border-radius: 15px;
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.center-self {
+  justify-self: center;
+  align-self: center;
+}
+
+.center-child {
+  justify-content: center;
+  align-items: center;
+}
+
+.no-border {
+  border: none;
+}
+
+.scrollable-y {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.screen-overlay {
+  width: 100vw;
+  height: 100vh;
+}
